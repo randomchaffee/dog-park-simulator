@@ -77,8 +77,8 @@ public class DogPark {
 
         // if size odd, last one is unpaired
         if (Dog.population % 2 != 0) {
-            Dog leftover = this.dogs[indexes[Dog.population - 1]];
-            System.out.println(leftover.name + " does not have anyone to play with.");
+            Dog lastDog = this.dogs[indexes[Dog.population - 1]];
+            System.out.println("Dog " + lastDog.name + " does not have anyone to play with.");
         }
     }
 }
