@@ -37,9 +37,6 @@ public class Dog {
 	}
 	
 	void play(Dog d) { // method to make dog play with other dog
-		if (this.dog != null) {
-			System.out.println("Dog " + this.name + "does not have a dog to play with.");
-		}
 		this.dog = d;
 		System.out.println("Dog " + this.name + " is playing with Dog " + d.name + "!");
 		
